@@ -1,12 +1,28 @@
 // import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
+import CssBaseline from '@mui/material/CssBaseline'
+import NavBar from './Components/NavBar'
+import { Box } from '@mui/material'
 
 function App() {
     // const [count, setCount] = useState(0)
 
-    return <div></div>
+    return (
+        <Box sx={{ display: 'flex' }}>
+            <CssBaseline />
+            <Box
+                sx={{
+                    // background: 'wheat',
+                    // height: '100vh',
+                    maxWidth: '1440px',
+                    margin: 'auto',
+                    width: '100%',
+                }}
+            >
+                <NavBar />
+                <Box sx={{ height: '1000px' }} />
+            </Box>
+        </Box>
+    )
 }
 
 export default App
