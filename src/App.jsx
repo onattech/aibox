@@ -8,6 +8,7 @@ import Box from '@mui/material/Box'
 import NavBar from './Components/NavBar'
 import ProductSummary from './Components/ProductSummary'
 import ProductStats from './Components/ProductStats'
+import ProductImages from './Components/ProductImages'
 
 function App() {
     // const [count, setCount] = React.useState(0)
@@ -27,6 +28,7 @@ function App() {
                 <NavBar />
                 <ProductSummary />
                 <ProductStats />
+                <ProductImages />
                 <Box sx={{ height: '1000px' }} />
             </Box>
         </Box>

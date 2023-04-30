@@ -49,7 +49,7 @@ export default function ProductStats() {
                 <StatGrid xs={1.8}>
                     <Title>USAGE</Title>
                     <Usage>50K</Usage>
-                    <Subtitle sx={{ mb: { xs: '-8px', md: '0px' } }}>Top Trending</Subtitle>
+                    <Subtitle>Top Trending</Subtitle>
                 </StatGrid>
 
                 {/* Credits */}
@@ -59,7 +59,7 @@ export default function ProductStats() {
                         <ImgBox src={coin} alt="coin" sx={{ margin: 'auto', height: { xs: '43%', md: '100%' } }} />
                         <Usage>25</Usage>
                     </Box>
-                    <Subtitle sx={{ mb: { xs: '-8px', md: '0px' } }}>
+                    <Subtitle>
                         <Purple>100</Purple> Credits Remaining
                     </Subtitle>
                 </StatGrid>
@@ -81,7 +81,7 @@ function ContainerBox({ children }) {
 
                 // Horizontal scroll
                 overflowX: 'auto',
-                height: { xs: '83px', md: '150px' },
+                height: { xs: '90px', md: '150px' },
 
                 // Hide horizontal scrollbar
                 msOverflowStyle: 'none', // IE and Edge
@@ -102,7 +102,7 @@ function StatsGrid({ children }) {
             xs={12}
             ml="0"
             sx={{
-                height: { xs: '83px', md: '144px' },
+                height: { xs: '104px', md: '144px' },
                 width: { xs: '690px', md: '1400px' },
                 minWidth: { xs: '690px', md: '1150px' },
             }}
@@ -239,7 +239,7 @@ function Star({ ...props }) {
 
 function Stars() {
     return (
-        <Box display="flex" justifyContent="center">
+        <Box sx={{ display: 'flex', justifyContent: 'center', mb: { xs: '3px', md: '0px' } }}>
             <Star />
             <Star />
             <Star />
