@@ -9,6 +9,7 @@ import NavBar from './Components/NavBar'
 import ProductSummary from './Components/ProductSummary'
 import ProductStats from './Components/ProductStats'
 import ProductImages from './Components/ProductImages'
+import Description from './Components/Description'
 
 function App() {
     // const [count, setCount] = React.useState(0)
@@ -29,6 +30,7 @@ function App() {
                 <ProductSummary />
                 <ProductStats />
                 <ProductImages />
+                <Description />
                 <Box sx={{ height: '1000px' }} />
             </Box>
         </Box>
