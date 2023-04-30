@@ -53,7 +53,7 @@ export default function NavBar() {
                     position: 'fixed',
                     justifyContent: 'center',
                     color: ' #25303B',
-                    background: 'transparent',
+                    background: '#fff',
                     height: '96px',
                     maxWidth: '1440px',
                     left: '50%',

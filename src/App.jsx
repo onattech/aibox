@@ -1,10 +1,15 @@
-// import { useState } from 'react'
+// import * as React from 'react'
+
+// ** MUI Components
 import CssBaseline from '@mui/material/CssBaseline'
+import Box from '@mui/material/Box'
+
+// ** Custom Components
 import NavBar from './Components/NavBar'
-import { Box } from '@mui/material'
+import ProductSummary from './Components/ProductSummary'
 
 function App() {
-    // const [count, setCount] = useState(0)
+    // const [count, setCount] = React.useState(0)
 
     return (
         <Box sx={{ display: 'flex' }}>
@@ -19,6 +24,7 @@ function App() {
                 }}
             >
                 <NavBar />
+                <ProductSummary />
                 <Box sx={{ height: '1000px' }} />
             </Box>
         </Box>
