@@ -31,7 +31,9 @@ export default function ProductSummary() {
                     },
                     width: '30px',
                     textAlign: 'center',
-                    top: '100px',
+                    top: '1px',
+                    left: '100px',
+                    zIndex: 10_000,
                     background: { xs: '#8ecae6', sm: '#219ebc', md: '#023047', lg: '#ffb703', xl: '#fb8500' },
                 }}
             ></Box>
@@ -73,20 +75,27 @@ export default function ProductSummary() {
                         Brainstorm business names at 1,000X the speed with this super helpful product name generator
                     </Typography>
                 </Grid>
-                <Grid xs={12} md={3} pl="0" display="flex" justifyContent="center" flexDirection="column">
+                <Grid
+                    xs={12}
+                    md={3}
+                    pl="0"
+                    display="flex"
+                    justifyContent="center"
+                    flexDirection="column"
+                    sx={{ alignItems: { xs: 'flex-start', md: 'center' } }}
+                >
                     <Button
                         variant="contained"
                         sx={{
                             height: { xs: '28px', md: '52px' },
-                            width: { xs: '52px', md: '180px' },
-                            borderRadius: { xs: 10, md: 22 },
+                            width: { xs: '115px', md: '180px' },
+                            borderRadius: { xs: '10px', md: '22px' },
                             fontWeight: 500,
                             fontSize: { xs: '0.875rem', md: '1.35rem' },
                             lineHeight: { xs: 1.25, md: 1.75 },
                             fontFamily: 'Inter',
                             textTransform: 'capitalize',
                             background: 'linear-gradient(0deg, #5639FF -12.89%, #746EFF 124.74%)',
-                            alignItems: { xs: 'flex-start', md: 'center' },
                         }}
                     >
                         Use

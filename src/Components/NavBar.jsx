@@ -48,7 +48,7 @@ export default function NavBar() {
     return (
         <Box sx={{ flexGrow: 1 }}>
             <AppBar
-                component="navbar"
+                component="nav"
                 sx={{
                     position: 'fixed',
                     justifyContent: 'center',
