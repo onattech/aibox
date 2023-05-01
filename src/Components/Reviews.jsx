@@ -6,10 +6,13 @@ import Typography from '@mui/material/Typography'
 import Grid from '@mui/material/Unstable_Grid2'
 import Button from '@mui/material/Button'
 import Link from '@mui/material/Link'
+import Divider from '@mui/material/Divider'
 
 // ** Local Assets
 import star from '../assets/starPurple.svg'
-import { Divider } from '@mui/material'
+import flag from '../assets/flag.svg'
+import kristin from '../assets/kristin.png'
+import Review from './Review'
 
 export default function Reviews() {
     return (
@@ -51,6 +54,8 @@ export default function Reviews() {
                     <ActionButton>Write a review</ActionButton>
                 </RightGrid>
             </Grid>
+
+            <Review />
         </ContainerBox>
     )
 }
@@ -159,7 +164,7 @@ function ActionButton({ children }) {
             sx={{
                 alignSelf: 'flex-start',
                 height: { xs: '40px', md: '93px' },
-                width: { xs: '90%', md: '307px' },
+                width: { xs: '93%', md: '307px' },
                 background: 'white',
                 color: 'rgba(0, 0, 0, 0.7)',
                 border: {
