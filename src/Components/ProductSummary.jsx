@@ -24,7 +24,7 @@ export default function ProductSummary() {
             {/* Responsive debugger box */}
             <Box
                 sx={{
-                    position: 'absolute',
+                    position: 'fixed',
                     '&:after': {
                         content: { xs: "'xs'", sm: "'sm'", md: "'md'", lg: "'lg'", xl: "'xl'" },
                         color: { md: 'white', lg: 'black' },
@@ -51,7 +51,7 @@ export default function ProductSummary() {
             />
 
             {/* Product summary */}
-            <Grid container spacing={2} sx={{ ml: { xs: '20px', md: '65px' } }} xs={10}>
+            <Grid container spacing={2} sx={{ ml: { xs: '20px', md: '65px' } }}>
                 <Grid xs={12} md={9} display="flex" pl="0" flexDirection="column" justifyContent="center">
                     <Typography
                         sx={{

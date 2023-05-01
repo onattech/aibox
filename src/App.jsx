@@ -10,6 +10,7 @@ import ProductSummary from './Components/ProductSummary'
 import ProductStats from './Components/ProductStats'
 import ProductImages from './Components/ProductImages'
 import Description from './Components/Description'
+import Reviews from './Components/Reviews'
 
 function App() {
     // const [count, setCount] = React.useState(0)
@@ -31,7 +32,7 @@ function App() {
                 <ProductStats />
                 <ProductImages />
                 <Description />
-                <Box sx={{ height: '1000px' }} />
+                <Reviews />
             </Box>
         </Box>
     )

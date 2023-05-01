@@ -3,6 +3,7 @@
 // ** MUI Components
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
+import Divider from '@mui/material/Divider'
 
 // ** Local Assets
 import stack from '../assets/stack.svg'
@@ -38,6 +39,11 @@ export default function Description() {
                 Overall, AI applications have the potential to revolutionize many aspects of our lives and improve
                 efficiency, accuracy, and decision-making across a wide range of industries.
             </Paragraph>
+
+            <Divider
+                variant="fullWidth"
+                sx={{ mt: { xs: '30px', md: '66px' }, mb: { xs: '20px', md: '66px' }, borderColor: '#D1D5DB' }}
+            />
         </Container>
     )
 }

@@ -99,7 +99,6 @@ function StatsGrid({ children }) {
         <Grid
             container
             spacing={2}
-            xs={12}
             ml="0"
             sx={{
                 height: { xs: '104px', md: '144px' },
