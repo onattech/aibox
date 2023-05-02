@@ -187,7 +187,7 @@ export default function Review() {
                     borderWidth: { xs: '0.75042px', md: '1.5px' },
                     borderColor: 'rgba(0, 0, 0, 0.08)',
                     width: '100vw',
-                    ml: { xs: '-2vh', md: '-10vh' },
+                    left: 0,
                     position: 'absolute',
                 }}
             />
@@ -214,7 +214,6 @@ export default function Review() {
                     View More
                 </Button>
             </Box>
-            <Box sx={{ height: '500px' }} />
         </>
     )
 }

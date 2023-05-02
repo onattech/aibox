@@ -11,6 +11,7 @@ import ProductStats from './Components/ProductStats'
 import ProductImages from './Components/ProductImages'
 import Description from './Components/Description'
 import Reviews from './Components/Reviews'
+import ProductMeta from './Components/ProductMeta'
 
 function App() {
     // const [count, setCount] = React.useState(0)
@@ -33,6 +34,8 @@ function App() {
                 <ProductImages />
                 <Description />
                 <Reviews />
+                <ProductMeta />
+                <Box sx={{ height: '500px' }} />
             </Box>
         </Box>
     )
