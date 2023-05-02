@@ -21,23 +21,6 @@ export default function ProductSummary() {
                 mt: { xs: '101px', md: '220px' },
             }}
         >
-            {/* Responsive debugger box */}
-            <Box
-                sx={{
-                    position: 'fixed',
-                    '&:after': {
-                        content: { xs: "'xs'", sm: "'sm'", md: "'md'", lg: "'lg'", xl: "'xl'" },
-                        color: { md: 'white', lg: 'black' },
-                    },
-                    width: '30px',
-                    textAlign: 'center',
-                    top: '1px',
-                    left: '100px',
-                    zIndex: 10_000,
-                    background: { xs: '#8ecae6', sm: '#219ebc', md: '#023047', lg: '#ffb703', xl: '#fb8500' },
-                }}
-            ></Box>
-
             {/* Product image */}
             <Box
                 component="img"
