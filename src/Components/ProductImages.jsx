@@ -9,7 +9,7 @@ import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper'
 import 'swiper/css'
-import './styles.css'
+import './swiperStyles.css'
 
 // ** Local Assets
 import product1 from '../assets/product1.png'

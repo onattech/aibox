@@ -10,8 +10,6 @@ import Divider from '@mui/material/Divider'
 
 // ** Local Assets
 import star from '../assets/starPurple.svg'
-import flag from '../assets/flag.svg'
-import kristin from '../assets/kristin.png'
 import Review from './Review'
 
 export default function Reviews() {

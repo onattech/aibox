@@ -15,7 +15,7 @@ export default function FAQs() {
             {/* Title */}
             <Title>FAQs</Title>
 
-            {/* Accordion */}
+            {/* Accordions */}
             {info.map((data) => (
                 <AccordionGroup data={data} key={data.id} />
             ))}
